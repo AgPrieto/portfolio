@@ -1,5 +1,6 @@
 import Project from "./Project";
 import { FaGithub} from "react-icons/fa";
+import { MdWeb } from "react-icons/md";
 
 
 export default function Portfolio() {
@@ -19,7 +20,7 @@ export default function Portfolio() {
           <Project
             image="pok.png"
             description="Comprehensive Pokémon app with API integration, user-friendly interface, customization options, and efficient storage on its server. Offers a seamless experience for both API and user-created Pokémon."
-            techStack="React, Redux, Css, JavaScript, Express"
+            techStack="React, Redux, Css, JavaScript, Express, PostgreSQL"
             buttons={[
               {
                 name: "GitHub",
@@ -35,7 +36,7 @@ export default function Portfolio() {
             image="rym2.png"
             description="
             Developed a feature-rich Rick and Morty web app with user registration, secure database handling, and intuitive character navigation. Included Favorites for secure character saving and detailed views for an enhanced user experience."
-            techStack="React, Redux, Css, JavaScript, Express"
+            techStack="React, Redux, Css, JavaScript, Express, PostgreSQL"
             buttons={[
              
               {
@@ -47,6 +48,30 @@ export default function Portfolio() {
             ]}
           >
             Rick and Morty Web App
+          </Project>
+
+          <Project
+            image="ola.png"
+            description="
+            Designed and developed a seamless E-Commerce platform for a surf shop in collaboration with peers. Utilized advanced technologies, including React, Redux, Node.js, Express, Sequelize, Cloudinary, and Mercado Pago, ensuring a smooth and efficient shopping experience."
+            techStack="React, Redux, Css, JavaScript, Express, PostgreSQL"
+            buttons={[
+             
+              {
+                name: "GitHub",
+                image: FaGithub,
+                link: "https://github.com/Melanialassia/ClientServer",
+              },
+
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://client-server-okg3.vercel.app/",
+              }
+             
+            ]}
+          >
+            Surf Shop E-commerce
           </Project>
 
           
