@@ -17,10 +17,29 @@ export default function Portfolio() {
 
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
+        <Project
+            image="lewe.png"
+            description="Lewe Sportlife is a website designed for squash, paddle tennis, and sportswear enthusiasts. It combines a social club experience with online retail, focusing on user satisfaction and innovation. The platform offers intuitive navigation, high-quality products, and personalized purchasing via WhatsApp. Administrators benefit from powerful tools for managing products and analyzing sales in real-time. Overall, Lewe Sportlife aims to provide a seamless shopping experience while optimizing business operations."
+            techStack="React, Redux, Css, JavaScript, Express, NodeJs, PostgreSQL"
+            buttons={[
+              {
+                name: "GitHub",
+                image: FaGithub,
+                link: "https://github.com/AgPrieto/LeweFront",
+              },
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://www.lewesportlife.com/",
+              }
+            ]}
+          >
+            Lewe Sportlife E-Commerce
+          </Project>
           <Project
             image="pok.png"
             description="Comprehensive Pokémon app with API integration, user-friendly interface, customization options, and efficient storage on its server. Offers a seamless experience for both API and user-created Pokémon."
-            techStack="React, Redux, Css, JavaScript, Express, PostgreSQL"
+            techStack="React, Redux, Css, JavaScript, Express, NodeJs, PostgreSQL"
             buttons={[
               {
                 name: "GitHub",
@@ -36,7 +55,7 @@ export default function Portfolio() {
             image="rym2.png"
             description="
             Developed a feature-rich Rick and Morty web app with user registration, secure database handling, and intuitive character navigation. Included Favorites for secure character saving and detailed views for an enhanced user experience."
-            techStack="React, Redux, Css, JavaScript, Express, PostgreSQL"
+            techStack="React, Redux, Css, JavaScript, Express, NodeJs, PostgreSQL"
             buttons={[
              
               {
@@ -54,7 +73,7 @@ export default function Portfolio() {
             image="ola.png"
             description="
             Designed and developed a seamless E-Commerce platform for a surf shop in collaboration with peers. Utilized advanced technologies, including React, Redux, Node.js, Express, Sequelize, Cloudinary, and Mercado Pago, ensuring a smooth and efficient shopping experience."
-            techStack="React, Redux, Css, JavaScript, Express, PostgreSQL"
+            techStack="React, Redux, Css, JavaScript, Express, NodeJs, PostgreSQL"
             buttons={[
              
               {
